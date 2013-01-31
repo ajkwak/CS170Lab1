@@ -7,12 +7,29 @@ my_num = 2
 puts my_num
 my_num = 3
 puts my_num
+my_num += 1 # Increment my_num by 1 (now, my_num = 4)
+puts my_num
+my_num = 5
+puts my_num
+my_num = 6
+puts my_num
+my_num = 7
+puts my_num
+my_num = 8
+puts my_num
+my_num = 9
+puts my_num
+my_num = 10
+puts my_num
+
 
 
 # 2. Get input from the console and save it to a variable. Prompt the user to enter a string such as their name or school. 
 #  	Print to the console the string in caps and reversed, then print out the length of the string. 
 
-
+print "Enter a string: "
+usrString = gets.chomp
+puts "You entered the string: #{usrString}"
 
 =begin 
 3. Using the variable you created in question 2, print out its type. Now set that variable equal to a number, such as the length
