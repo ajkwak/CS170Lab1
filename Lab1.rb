@@ -2,6 +2,11 @@
 # I'll get  you started! 
 
 my_num = 1
+puts my_num
+my_num = 2
+puts my_num
+my_num = 3
+puts my_num
 
 
 # 2. Get input from the console and save it to a variable. Prompt the user to enter a string such as their name or school. 
